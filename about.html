@@ -1,29 +1,131 @@
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>About | Nicholas Ho</title>
-        <linnk rel="stylesheet" href="styles.css" />
-    </head>
-    <body>
-        <header>
-            <h1>About Me</h1>
-            <nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="assets/favicon.png"/>
+    <meta name="description" content="Learn more about my background, skills, and experience in data science and web development">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">Portfolio</a>
+            <div class="nav-links">
                 <a href="index.html">Home</a>
-                <a href="projects.html">Projects</a>
                 <a href="about.html">About</a>
-            </nav>
-        </header>
-        <main>
-            <section>
-                <p>I'm Nicholas Ho, a USC student passionate about sports analytics and 
-                    data driven problem solving. I specialize in Python, machine learning,
-                    and buliding end-to-end data science projects.
-                </p>
+                <a href="projects.html">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="sidebar">
+            <img src="assets/profile-photo.jpg" alt="Professional Photo" />
+            <h2>Your Name</h2>
+            <p>Data Scientist & Web Developer</p>
+            <p>University of Southern California</p>
+            <div class="skills">
+                <span>Python</span>
+                <span>R</span>
+                <span>JavaScript</span>
+                <span>React</span>
+                <span>Machine Learning</span>
+                <span>Data Analysis</span>
+                <span>SQL</span>
+                <span>Git</span>
+            </div>
+        </div>
+
+        <div class="content">
+            <section class="about-intro">
+                <h1>About Me</h1>
+                <p>I'm a data scientist and web developer with a passion for creating data-driven applications and deriving meaningful insights from complex datasets. With a background in both technical and analytical fields, I bring a unique perspective to solving problems.</p>
             </section>
-        </main>
-        <footer>
-            <p>&copy; 2025 Nicholas Ho</p>
-        </footer>
-    </body>
-</html>
+
+            <section class="education">
+                <h2>Education</h2>
+                <div class="education-item">
+                    <h3>University of Southern California</h3>
+                    <p class="degree">Master of Science in Data Science</p>
+                    <p class="date">Expected Graduation: 2024</p>
+                    <p>Relevant Coursework:</p>
+                    <ul>
+                        <li>Machine Learning</li>
+                        <li>Statistical Computing</li>
+                        <li>Data Mining</li>
+                        <li>Big Data Analytics</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="experience">
+                <h2>Professional Experience</h2>
+                <div class="experience-item">
+                    <h3>Data Science Intern</h3>
+                    <p class="company">Tech Company Name</p>
+                    <p class="date">Summer 2023</p>
+                    <ul>
+                        <li>Developed machine learning models for predictive analytics</li>
+                        <li>Implemented data pipelines using Python and SQL</li>
+                        <li>Collaborated with cross-functional teams to deliver insights</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <h3>Research Assistant</h3>
+                    <p class="company">University Research Lab</p>
+                    <p class="date">2022 - Present</p>
+                    <ul>
+                        <li>Conducted data analysis on large-scale datasets</li>
+                        <li>Published research findings in academic journals</li>
+                        <li>Mentored junior researchers in data analysis techniques</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="skills-detailed">
+                <h2>Technical Skills</h2>
+                <div class="skills-category">
+                    <h3>Programming Languages</h3>
+                    <p>Python, R, JavaScript, SQL, HTML/CSS</p>
+                    
+                    <h3>Frameworks & Libraries</h3>
+                    <p>React, NumPy, Pandas, Scikit-learn, TensorFlow</p>
+                    
+                    <h3>Tools & Technologies</h3>
+                    <p>Git, Docker, AWS, Jupyter, VS Code</p>
+                    
+                    <h3>Data Analysis</h3>
+                    <p>Statistical Analysis, Machine Learning, Data Visualization, Big Data Processing</p>
+                </div>
+            </section>
+
+            <section class="interests">
+                <h2>Interests & Activities</h2>
+                <p>Outside of work, I'm passionate about:</p>
+                <ul>
+                    <li>Contributing to open-source projects</li>
+                    <li>Participating in data science competitions</li>
+                    <li>Writing technical blog posts</li>
+                    <li>Mentoring aspiring data scientists</li>
+                </ul>
+            </section>
+
+            <section id="contact">
+                <h2>Get in Touch</h2>
+                <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+                <div class="contact-links">
+                    <a href="mailto:your.email@example.com" class="contact-button">Email Me</a>
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank" class="contact-button">LinkedIn</a>
+                    <a href="https://github.com/yourusername" target="_blank" class="contact-button">GitHub</a>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NBA Stats Prediction</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f9f9f9;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 768px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+    .tags {
+      margin: 1rem 0;
+    }
+    .tag {
+      display: inline-block;
+      background-color: #e0e7ff;
+      color: #3730a3;
+      padding: 0.3rem 0.6rem;
+      margin: 0 0.3rem 0.3rem 0;
+      font-size: 0.85rem;
+      border-radius: 0.3rem;
+    }
+    a.back {
+      display: inline-block;
+      margin-top: 2rem;
+      color: #2563eb;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+    <nav style="background: #f0f0f0; padding: 1em; display: flex; justify-content: center; gap: 2em; font-family: sans-serif;">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="fantasy.html">Fantasy Rankings</a>
+      </nav>      
+  <div class="container">
+    <h1>NBA Stats Prediction</h1>
+    <div class="tags">
+      <span class="tag">Python</span>
+      <span class="tag">Pandas</span>
+      <span class="tag">Scikit-learn</span>
+      <span class="tag">Web Deployment</span>
+    </div>
+    <p>
+      This project uses NBA player season stats from 2017–2024 to train predictive models that estimate player performance in the upcoming 2024–2025 season. It incorporates contextual features like teammate influence, age effects, and league-wide trends to predict core box score statistics such as points, assists, rebounds, and more.
+    </p>
+    <p>
+      The final models use random forests to predict each individual stat. We then compute fantasy performance rankings based on either Points or 9-Category scoring formats.
+    </p>
+    <p>
+      Users can explore projected stats for top players and filter by name or team. This project is also deployed online so others can interact with it.
+    </p>
+    <a href="index.html" class="back">← Back to Portfolio</a>
+  </div>
+</body>
+</html>

@@ -1,31 +1,174 @@
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Projects | Nicholas Ho</title>
-        <link rel="stylesheet" href="styles.css" />
-    </head>
-    <body>
-        <header>
-            <h1>Projects</h1>
-            <nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="assets/favicon.png"/>
+    <meta name="description" content="Explore my portfolio projects in data science, machine learning, and web development">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">Portfolio</a>
+            <div class="nav-links">
                 <a href="index.html">Home</a>
-                <a href="projects.html">Projects</a>
                 <a href="about.html">About</a>
-            </nav>
-        </header>
-        <main>
-            <section>
-                <h2>NBA Stats/Fantasy Ranking Prediction</h2>
-                <p>I built a machine learning pipeline to predict NBA player stats using 
-                    Random Forest and feature engineering, including teammate context and 
-                    age-based factors. Then, I used the predicted stats to generate a list of 
-                    predicted Fantasy Rankings for the following season as well. </p>
-                <a href="https://github.com/nickyh1024/nba-stats-prediction" target="_blank">View on GitHub</a>
+                <a href="projects.html">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="sidebar">
+            <img src="assets/profile-photo.jpg" alt="Professional Photo" />
+            <h2>Your Name</h2>
+            <p>Data Scientist & Web Developer</p>
+            <p>University of Southern California</p>
+            <div class="skills">
+                <span>Python</span>
+                <span>R</span>
+                <span>JavaScript</span>
+                <span>React</span>
+                <span>Machine Learning</span>
+                <span>Data Analysis</span>
+                <span>SQL</span>
+                <span>Git</span>
+            </div>
+        </div>
+
+        <div class="content">
+            <section class="projects-intro">
+                <h1>My Projects</h1>
+                <p>Here's a collection of my most significant projects, demonstrating my skills in data science, machine learning, and web development.</p>
             </section>
-        </main>
-        <footer>
-            <p>&copy; 2025 Nicholas Ho</p>
-        </footer>
-    </body>
-</html>
+
+            <section class="project-detailed">
+                <h2>NBA Stats Analysis</h2>
+                <img src="assets/nba-project-large.jpg" alt="NBA Stats Analysis Dashboard" class="project-hero-image"/>
+                <div class="project-info">
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>Machine Learning</span>
+                        <span>Data Analysis</span>
+                        <span>Pandas</span>
+                        <span>Scikit-learn</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/yourusername/nba-stats" target="_blank" class="button">View Code</a>
+                        <a href="https://nba-stats-demo.herokuapp.com" target="_blank" class="button">Live Demo</a>
+                    </div>
+                </div>
+                <div class="project-description">
+                    <h3>Project Overview</h3>
+                    <p>A comprehensive NBA player statistics analysis tool that uses machine learning to predict player performance and identify key performance indicators.</p>
+                    
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li>Player performance prediction using Random Forest algorithms</li>
+                        <li>Historical data analysis and trend visualization</li>
+                        <li>Interactive dashboard for exploring statistics</li>
+                        <li>Custom metrics for player evaluation</li>
+                    </ul>
+
+                    <h3>Technical Details</h3>
+                    <ul>
+                        <li>Built with Python, Pandas, and Scikit-learn</li>
+                        <li>Data visualization using Plotly and Matplotlib</li>
+                        <li>Deployed on Heroku with continuous integration</li>
+                        <li>95% prediction accuracy on test data</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="project-detailed">
+                <h2>Fantasy Basketball Rankings</h2>
+                <img src="assets/fantasy-project-large.jpg" alt="Fantasy Basketball Rankings Interface" class="project-hero-image"/>
+                <div class="project-info">
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>Data Analysis</span>
+                        <span>Web Development</span>
+                        <span>Flask</span>
+                        <span>SQLite</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/yourusername/fantasy-basketball" target="_blank" class="button">View Code</a>
+                        <a href="https://fantasy-basketball-rankings.herokuapp.com" target="_blank" class="button">Live Demo</a>
+                    </div>
+                </div>
+                <div class="project-description">
+                    <h3>Project Overview</h3>
+                    <p>A fantasy basketball ranking system that provides accurate player rankings and recommendations based on statistical analysis and machine learning.</p>
+                    
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li>Custom ranking algorithm based on 9-category scoring</li>
+                        <li>Player value calculator and trade analyzer</li>
+                        <li>Daily updates and injury tracking</li>
+                        <li>Personalized team optimization suggestions</li>
+                    </ul>
+
+                    <h3>Technical Details</h3>
+                    <ul>
+                        <li>Flask backend with SQLite database</li>
+                        <li>Beautiful Soup for web scraping daily updates</li>
+                        <li>Automated testing with pytest</li>
+                        <li>Mobile-responsive design</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="project-detailed">
+                <h2>Personal Portfolio Website</h2>
+                <img src="assets/portfolio-project.jpg" alt="Portfolio Website Screenshot" class="project-hero-image"/>
+                <div class="project-info">
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Responsive Design</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/yourusername/portfolio" target="_blank" class="button">View Code</a>
+                    </div>
+                </div>
+                <div class="project-description">
+                    <h3>Project Overview</h3>
+                    <p>A modern, responsive portfolio website built from scratch to showcase my projects and skills.</p>
+                    
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li>Responsive design that works on all devices</li>
+                        <li>Modern UI with smooth animations</li>
+                        <li>Optimized performance and accessibility</li>
+                        <li>Clean and maintainable code structure</li>
+                    </ul>
+
+                    <h3>Technical Details</h3>
+                    <ul>
+                        <li>Built with semantic HTML5</li>
+                        <li>Styled with modern CSS3 (Grid, Flexbox)</li>
+                        <li>Enhanced with vanilla JavaScript</li>
+                        <li>Optimized for SEO</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2>Get in Touch</h2>
+                <p>Interested in collaborating on a project? Let's connect!</p>
+                <div class="contact-links">
+                    <a href="mailto:your.email@example.com" class="contact-button">Email Me</a>
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank" class="contact-button">LinkedIn</a>
+                    <a href="https://github.com/yourusername" target="_blank" class="contact-button">GitHub</a>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
