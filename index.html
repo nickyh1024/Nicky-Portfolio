@@ -3,87 +3,101 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Portfolio</title>
+  <title>Your Portfolio - Data Scientist & Developer</title>
+  <meta name="description" content="Portfolio showcasing data science projects, machine learning models, and web development work">
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" href="assets/favicon.png"/>
-  <meta name="description" content="Personal portfolio showcasing my projects and experience in data science and web development">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <nav>
-        <div class="nav-container">
-            <a href="index.html" class="logo">Portfolio</a>
-            <div class="nav-links">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="projects.html">Projects</a>
-                <a href="#contact">Contact</a>
-            </div>
-        </div>
-    </nav>
+  <nav>
+    <div class="nav-container">
+      <a href="index.html" class="logo">Portfolio</a>
+      <div class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
 
   <div class="container">
     <div class="sidebar">
-      <img src="assets/profile-photo.jpg" alt="Professional Photo" />
-      <h2>Your Name</h2>
-      <p>Data Scientist & Web Developer</p>
+      <img src="assets/profile-photo.jpg" alt="Professional headshot" />
+      <h2>Nicholas Ho</h2>
+      <p>Data Scientist & Developer</p>
       <p>University of Southern California</p>
       <div class="skills">
-        <span>Python</span>
-        <span>R</span>
-        <span>JavaScript</span>
-        <span>React</span>
-        <span>Machine Learning</span>
-        <span>Data Analysis</span>
-        <span>SQL</span>
-        <span>Git</span>
+        <span title="Python Programming"><i class="fab fa-python"></i> Python</span>
+        <span title="R Programming"><i class="fas fa-chart-line"></i> R</span>
+        <span title="JavaScript"><i class="fab fa-js"></i> JavaScript</span>
+        <span title="React"><i class="fab fa-react"></i> React</span>
+        <span title="Machine Learning"><i class="fas fa-brain"></i> ML</span>
+        <span title="Data Analysis"><i class="fas fa-database"></i> Data</span>
+        <span title="SQL"><i class="fas fa-table"></i> SQL</span>
+        <span title="Git"><i class="fab fa-git-alt"></i> Git</span>
       </div>
     </div>
 
     <div class="content">
       <section class="intro">
-        <h1>Hello, I'm <span class="highlight">Your Name</span> 👋</h1>
-        <p>I'm a passionate data scientist and web developer with experience in building data-driven applications and deriving meaningful insights from complex datasets.</p>
+        <h1>Hello, I'm <span class="highlight">Nicholas Ho</span> 👋</h1>
+        <p>I'm a passionate data scientist and developer with expertise in building data-driven applications and deriving meaningful insights from complex datasets. I combine analytical thinking with technical skills to solve real-world problems.</p>
       </section>
 
       <section class="featured-projects">
         <h2>Featured Projects</h2>
         <div class="project-card">
-          <img src="assets/nba-project.jpg" alt="NBA Stats Analysis Project" />
+          <img src="assets/nba-project.jpg" alt="NBA Stats Analysis Dashboard showing player performance metrics" />
           <div>
             <h3>NBA Stats Analysis</h3>
             <div class="tags">
-              <span>Python</span>
-              <span>Machine Learning</span>
-              <span>Data Analysis</span>
-              <span>Pandas</span>
+              <span><i class="fab fa-python"></i> Python</span>
+              <span><i class="fas fa-brain"></i> Machine Learning</span>
+              <span><i class="fas fa-chart-bar"></i> Data Analysis</span>
+              <span><i class="fas fa-table"></i> Pandas</span>
             </div>
-            <p>Built a comprehensive NBA player statistics analysis tool using machine learning to predict player performance and identify key performance indicators.</p>
-            <a href="projects/nba-stats.html">View Project &rarr;</a>
+            <p>Built a comprehensive NBA player statistics analysis tool using machine learning to predict player performance and identify key performance indicators. The system processes historical data to provide accurate predictions and insights.</p>
+            <a href="projects/nba-stats.html" class="project-link">
+              View Project <i class="fas fa-arrow-right"></i>
+            </a>
           </div>
         </div>
 
         <div class="project-card">
-          <img src="assets/fantasy-project.jpg" alt="Fantasy Basketball Rankings" />
+          <img src="assets/fantasy-project.jpg" alt="Fantasy Basketball Rankings Interface showing player rankings" />
           <div>
             <h3>Fantasy Basketball Rankings</h3>
             <div class="tags">
-              <span>Python</span>
-              <span>Data Analysis</span>
-              <span>Web Development</span>
+              <span><i class="fab fa-python"></i> Python</span>
+              <span><i class="fas fa-chart-line"></i> Data Analysis</span>
+              <span><i class="fas fa-code"></i> Web Development</span>
             </div>
-            <p>Developed a fantasy basketball ranking system using statistical analysis and machine learning to provide accurate player rankings and recommendations.</p>
-            <a href="projects/fantasy-basketball.html">View Project &rarr;</a>
+            <p>Developed a sophisticated fantasy basketball ranking system that leverages statistical analysis and machine learning to provide accurate player rankings and recommendations. Features include custom scoring systems and trade analysis tools.</p>
+            <a href="projects/fantasy-basketball.html" class="project-link">
+              View Project <i class="fas fa-arrow-right"></i>
+            </a>
           </div>
         </div>
       </section>
 
       <section id="contact">
-        <h2>Get in Touch</h2>
-        <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+        <h2>Let's Connect</h2>
+        <p>I'm always interested in discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
         <div class="contact-links">
-          <a href="mailto:your.email@example.com" class="contact-button">Email Me</a>
-          <a href="https://linkedin.com/in/yourprofile" target="_blank" class="contact-button">LinkedIn</a>
-          <a href="https://github.com/yourusername" target="_blank" class="contact-button">GitHub</a>
+          <a href="mailto:your.email@example.com" class="contact-button">
+            <i class="fas fa-envelope"></i> Email Me
+          </a>
+          <a href="https://linkedin.com/in/yourprofile" target="_blank" class="contact-button">
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+          <a href="https://github.com/yourusername" target="_blank" class="contact-button">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+          <a href="assets/resume.pdf" target="_blank" class="contact-button">
+            <i class="fas fa-file-alt"></i> Resume
+          </a>
         </div>
       </section>
     </div>
